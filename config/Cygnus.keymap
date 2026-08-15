@@ -101,7 +101,7 @@
 &kp LCTRL   &kp LGUI  &kp LALT  &kp LANGUAGE_1  &kp LEFT_ARROW  &lt 1 SPACE  &kp RIGHT_ARROW    &kp BACKSPACE    &mo 2                             &kp DEL   &kp RCTRL
             >;
 
-            sensor-bindings = <&inc_dec_kp UP DOWN>;
+            sensor-bindings = <&inc_dec_kp DOWN UP>;
         };
 
         FUNCTION {
@@ -112,7 +112,7 @@
 &trans  &kp F12  &trans  &trans  &trans  &trans         &trans           &trans   &trans                          &kp F12  &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         NUM {
