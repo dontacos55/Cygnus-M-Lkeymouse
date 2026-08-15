@@ -27,12 +27,12 @@
         };
 
         rrr {
-            bindings = <&mkp RCLK>;
+            bindings = <&mkp LCLK>;
             key-positions = <21 22>;
         };
 
         lll {
-            bindings = <&mkp LCLK>;
+            bindings = <&mkp RCLK>;
             key-positions = <22 23>;
         };
 
